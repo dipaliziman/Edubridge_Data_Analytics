@@ -1,0 +1,23 @@
+ar=array(c(1:18),dim=c(2,3,3))
+ar
+ar=array(c(1:18),dim=c(3,2,3))
+ar
+dim(ar)
+length(ar)
+ar[1,2,3]
+ar[2,1,3]
+ar[3,1,3]
+ar[,,2]
+ar[,2,]
+ar[,2,2]
+3%in%ar
+1%in%ar
+for(i in ar)
+print(i)
+v=c(67,89,23,12)
+v
+v1=c(12,34,56,67,78,90)
+arr=array(c(v,v1),dim=c(3,3,2))
+arr
+is.array(arr)
+is.list(arr)

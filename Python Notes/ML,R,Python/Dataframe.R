@@ -1,0 +1,23 @@
+d=data.frame(id=c(1,2,3,4),name=c('dip','abhi','viki','karan'),marks=c(78,54,78,90) )
+d
+x=1:3
+y=4:6
+z=7:9
+d1=data.frame(X=x,Y=y,Z=z,S=s)
+d1
+length(d)
+summary(d)
+dim(d)
+nrow(d)
+ncol(d)
+rownames(d)
+colnames(d)
+d['name']
+d['id']
+d1[x]
+d[1,2]
+d$marks
+d$name
+d[[1]]
+rbind(d,d)
+cbind(d,d)
