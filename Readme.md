@@ -1,1 +1,1 @@
-# Edubridge_Data_Analyticsi
+# Edubridge_Data_Analytics
